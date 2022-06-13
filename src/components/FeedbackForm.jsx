@@ -10,7 +10,7 @@ function FeedbackForm() {
   const [btnDisabled, setBtnDisabled] = useState(true);
   const [message, setMessage] = useState("");
 
-  const { addFeedback, feedbackEdit, updateFeedback, setFeedbackEdit } =
+  const { addFeedback, feedbackEdit, updateFeedback } =
     useContext(FeedbackContext);
 
   useEffect(() => {
